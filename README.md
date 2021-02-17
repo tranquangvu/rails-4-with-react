@@ -24,6 +24,7 @@ Rails 4 examples with webpacker + react intergration.
 3. Add javascript pack to layout (views/layouts/application.html.erb):
 
 ```
+  <%= stylesheet_pack_tag 'application' %>
   <%= javascript_pack_tag 'application' %>
 ```
 
